@@ -1,3 +1,4 @@
+
 # Falling Sand Simulator (Java)
 
 A Java particle simulation built as a software design course project in 2025. It models how different materials move and interact in a two-dimensional world.
@@ -25,22 +26,23 @@ The repository includes the following Java source and test files:
 - `Acid.java`, `AcidTest.java`
 - `ParticleWorld.java`, `Application.java`
 
+The project also includes `program05.jar` (the simulation's course library) and `dropper.png` (an image asset) in the repository root.
+
 ## Running the project
 
-**This is a course-framework-based Java project, not a standalone Java application.** The source imports `student.micro` / `student.micro.GreenfootApplication`, and the simulator also depends on the supplied `ParticleBase`, `ParticleWorldBase`, and `Dropper` classes (provided in `program05.jar`). It may require the corresponding course/Greenfoot/BlueJ environment and testing libraries to compile or run.
+**This is a course-framework-based Java project, not a standalone Java application.** The source imports `student.micro` and `student.micro.GreenfootApplication`. It also depends on `ParticleBase`, `ParticleWorldBase`, and `Dropper` from `program05.jar`. A compatible Java/Greenfoot course environment and the `student.micro` framework are required to compile and run it.
 
 To run it in a compatible environment:
 
-1. Make the `student.micro` framework and the course-provided `program05.jar` available to the project.
-2. Load the Java sources into the compatible Java/Greenfoot course environment.
-3. Start the `Application` class, which loads `ParticleWorld`.
+1. Download or clone this repository.
+2. Make the `student.micro` framework available and add the included `program05.jar` to the project's classpath.
+3. Load the Java source files into the compatible course/Greenfoot environment.
+4. Start the `Application` class, which loads `ParticleWorld`.
 
-The included test classes use `student.micro.TestCase` and AssertJ. They require those testing dependencies as well.
-
-**Dependency and asset note:** `+libs/program05.jar` and `images/dropper.png` came with the course project materials. They are retained in the local ZIP to preserve the project, but their public redistribution permissions have not been verified. The `.gitignore` excludes the JAR from Git commits. Check the applicable license/course policy before publicly uploading the JAR or image.
+The test classes use `student.micro.TestCase` and AssertJ, so those testing dependencies are needed to run the tests.
 
 ## Authorship and project history
 
 Java implementation and tests: **Nick Rini**. Original `@version` values in the Java source files have been retained from the working project; these are historical version labels, not new modification dates.
 
-This is a cleaned portfolio presentation of the original coursework. The simulation logic and test assertions have not been intentionally changed.
+This repository is a cleaned portfolio presentation of the original coursework. The simulation logic and test assertions have not been intentionally changed.
