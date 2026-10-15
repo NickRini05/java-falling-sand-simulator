@@ -9,8 +9,5 @@ package.bluej
 submitter.properties
 README.TXT
 
-# External course-provided dependencies (retain locally; verify licensing)
-+libs/*.jar
-
 # General
 .DS_Store
