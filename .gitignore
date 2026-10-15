@@ -1,0 +1,16 @@
+# Java compiled output
+*.class
+
+# BlueJ generated metadata
+*.ctxt
+package.bluej
+
+# Course submission artifacts
+submitter.properties
+README.TXT
+
+# External course-provided dependencies (retain locally; verify licensing)
++libs/*.jar
+
+# General
+.DS_Store
