@@ -5,7 +5,7 @@ A Java particle simulation built as a software design course project in 2025. It
 
 ## Simulation Preview
 
-![Falling Sand Simulator](simulation-demo.png)
+![Falling Sand Simulator](simulation_demo.png)
 
 ## Features
 
